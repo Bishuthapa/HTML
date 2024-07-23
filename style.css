@@ -1,0 +1,72 @@
+h1,p{
+    /*background-color: RGB(0,70,90);*/
+    color:rgba(110, 37, 220, 0.533);
+    Line-height:1.6em;
+    font-family:Raleway;
+    font-size: bold;
+    font-weight:bold;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color:red;
+}
+a:active{
+    color:green;
+}
+a:visited{
+    color: pink;
+}
+
+
+.box-1{
+    width: 80%;
+    margin: auto;
+    padding: 3%;
+    background-color:rgb(3, 5, 1);
+    border: width 5px;
+    border-bottom-width: 50px;
+    border-top-style: dotted;
+
+    border-left: 15px rgb(72, 8, 8) solid;
+    border-top: 15px rgb(72, 8, 8) solid;
+    border-bottom:15px rgb(72, 8, 8) solid;
+    border-right: 15px rgb(72, 8, 8) solid;
+}
+.box-2{
+    width: 80%;
+    margin: auto;
+    padding:3%;
+    background-color:rgb(4, 6, 2);
+    border: width 5px;
+    border-bottom-width: 50px;
+    border-top-style: dotted;
+
+    border-left: 15px rgb(72, 8, 8) solid;
+    border-top: 15px rgb(72, 8, 8) solid;
+    border-bottom:15px rgb(72, 8, 8) solid;
+    border-right: 15px rgb(72, 8, 8) solid;
+}
+
+.categories{
+    border:1px #ccc solid ;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.categories h2{
+    text-align: center;
+}
+.categories ul{
+    padding: 0;
+    list-style: none;
+
+}
+.box-2
+{
+    text-align: 20px;    
+}
+
