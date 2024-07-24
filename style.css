@@ -26,12 +26,40 @@ a:visited{
     border-color: red;
     border-radius:10px;
     cursor: pointer;
-}
+    border-style:solid;
+    height: 25px;
+    }
 .join-button{
     border-color:rgb(25, 113, 212);
     background-color: white;
     color:rgb(25, 113, 212);
     cursor: pointer;
+    border-style:solid;
+    border-width: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 1px;
+    font-size:10px;
+    height:25px;
+    padding-right: 10px;
+    padding-left:10px;
+
+
+}
+.tweet-button{
+    color:white;
+    background-color:rgb(55, 135, 226);
+    border-color:rgb(55, 135, 226);
+    border-style:solid;
+    border-radius:40px;
+    font-weight: bold;
+    height: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    padding-right:10px;
+    padding-left:10px;
+    cursor: pointer;
+    
+
 }
 
 .box-1{
@@ -97,3 +125,8 @@ a:visited{
     text-align: 20px;    
 }
 
+.sop{
+    border:5px #77ba35 solid;
+    color:black;
+    border-radius: 5px;
+}
