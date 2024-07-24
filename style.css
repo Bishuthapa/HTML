@@ -1,6 +1,6 @@
 h1,p{
     /*background-color: RGB(0,70,90);*/
-    color:rgba(110, 37, 220, 0.533);
+    color:rgba(6, 5, 6, 0.533);
     Line-height:1.6em;
     font-family:Raleway;
     font-size: bold;
@@ -9,7 +9,7 @@ h1,p{
 }
 a{
     text-decoration: none;
-    color: black;
+    color: rgb(33, 21, 21);
 }
 a:hover{
     color:red;
@@ -18,43 +18,69 @@ a:active{
     color:green;
 }
 a:visited{
-    color: pink;
+    color: rgb(25, 113, 212);
 }
-
+.subscribe-button{
+    background-color: red;
+    color:white;
+    border-color: red;
+    border-radius:10px;
+    cursor: pointer;
+}
+.join-button{
+    border-color:black;
+    background-color: white
+    b;
+}
 
 .box-1{
     width: 80%;
     margin: auto;
     padding: 3%;
-    background-color:rgb(3, 5, 1);
+    background-color:rgb(246, 248, 244);
     border: width 5px;
     border-bottom-width: 50px;
     border-top-style: dotted;
 
-    border-left: 15px rgb(72, 8, 8) solid;
-    border-top: 15px rgb(72, 8, 8) solid;
-    border-bottom:15px rgb(72, 8, 8) solid;
-    border-right: 15px rgb(72, 8, 8) solid;
+    border-left: 15px rgb(93, 159, 224) solid;
+    border-top: 15px rgb(93, 159, 224) solid;
+    border-bottom:15px rgb(93, 159, 224) solid;
+    border-right: 15px rgb(93, 159, 224) solid;
 }
 .box-2{
     width: 80%;
-    margin: auto;
+    margin: 5%;
     padding:3%;
-    background-color:rgb(4, 6, 2);
+    background-color:rgb(237, 239, 235);
     border: width 5px;
     border-bottom-width: 50px;
     border-top-style: dotted;
 
-    border-left: 15px rgb(72, 8, 8) solid;
-    border-top: 15px rgb(72, 8, 8) solid;
-    border-bottom:15px rgb(72, 8, 8) solid;
-    border-right: 15px rgb(72, 8, 8) solid;
+    border-left: 15px rgb(93, 159, 224) solid;
+    border-top: 15px rgb(93, 159, 224) solid;
+    border-bottom:15px rgb(93, 159, 224) solid;
+    border-right: 15px rgb(93, 159, 224) solid;
+}
+.box-3{
+    width: 80%;
+    margin: 5%;
+    padding:3%;
+    background-color:rgb(237, 239, 235);
+    border: width 5px;
+    border-bottom-width: 50px;
+    border-top-style: dotted;
+
+    border-left: 15px rgb(93, 159, 224) solid;
+    border-top: 15px rgb(93, 159, 224) solid;
+    border-bottom:15px rgb(93, 159, 224) solid;
+    border-right: 15px rgb(93, 159, 224) solid;
 }
 
+
 .categories{
-    border:1px #ccc solid ;
-    padding: 10px;
-    border-radius: 15px;
+    border:5px #77ba35 solid ;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .categories h2{
