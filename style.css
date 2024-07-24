@@ -28,9 +28,10 @@ a:visited{
     cursor: pointer;
 }
 .join-button{
-    border-color:black;
-    background-color: white
-    b;
+    border-color:rgb(25, 113, 212);
+    background-color: white;
+    color:rgb(25, 113, 212);
+    cursor: pointer;
 }
 
 .box-1{
