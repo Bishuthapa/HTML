@@ -48,6 +48,7 @@ a:visited{
         opacity: 0.5;
         
     }
+    
 .join-button{
     border-color:rgb(25, 113, 212);
     background-color: white;
@@ -161,4 +162,6 @@ a:visited{
     border:5px #77ba35 solid;
     color:black;
     border-radius: 5px;
+    width: 130px;
+    
 }
