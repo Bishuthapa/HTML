@@ -1,4 +1,4 @@
-h1,p{
+h1{
     /*background-color: RGB(0,70,90);*/
     color:rgba(6, 5, 6, 0.533);
     Line-height:1.6em;
@@ -38,7 +38,6 @@ a:visited{
     border-radius:10px;
     cursor: pointer;
     border-style:solid;
-    height: 25px;
     transition: opacity 0.15s;
     }
     .subscribe-button:hover{
@@ -59,7 +58,6 @@ a:visited{
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 1px;
     font-size:10px;
-    height:25px;
     padding-right: 10px;
     padding-left:10px;
     transition: background-color 1s,
@@ -82,7 +80,6 @@ a:visited{
     border-style:solid;
     border-radius:40px;
     font-weight: bold;
-    height: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10px;
     padding-right:10px;
@@ -96,7 +93,7 @@ a:visited{
 }
 
 .box-1{
-    width: 80%;
+
     margin: auto;
     padding: 3%;
     background-color:rgb(246, 248, 244);
@@ -110,11 +107,9 @@ a:visited{
     border-right: 15px rgb(93, 159, 224) solid;
 }
 .box-2{
-    width: 80%;
     margin: 5%;
     padding:3%;
     background-color:rgb(237, 239, 235);
-    border: width 5px;
     border-bottom-width: 50px;
     border-top-style: dotted;
 
@@ -159,9 +154,18 @@ a:visited{
 }
 
 .sop{
-    border:5px #77ba35 solid;
+    border: 5px greenyellow solid;
     color:black;
     border-radius: 5px;
-    width: 130px;
+    width: 150px;
+    transition: background-color 1s,
+    border-color 1s,
+    color 1s;
+    cursor:pointer;
     
+}
+.sop:hover{
+    color:red;
+    background-color: lightblue;
+    border-color:lightblue;
 }
