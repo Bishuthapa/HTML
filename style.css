@@ -48,6 +48,31 @@ a:visited{
         
     }
     
+    .next-button{
+        margin-left: 76%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(11, 11, 11);
+    border-radius: 40px;
+    color:white;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    cursor:pointer;
+    transition: background-color 1s,
+    color 1s;
+    border:solid;
+    }
+    .next-button:hover{
+        background-color: rgb(71, 69, 69);
+        color:#77ba35
+    }
+    .next-button:active{
+        color:green;
+    }
 .join-button{
     border-color:rgb(25, 113, 212);
     background-color: white;
@@ -168,4 +193,80 @@ a:visited{
     color:red;
     background-color: lightblue;
     border-color:lightblue;
+}
+.back{
+    margin-left: 76%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(11, 11, 11);
+    border-radius: 40px;
+    color:white;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    cursor:pointer;
+    transition: background-color 1s,
+    color 1s;
+    border:solid;
+
+
+} 
+.back:hover{
+    background-color:white ;
+    color:black;
+}
+   p{
+    text-align:center;
+
+   }
+   button{
+    text-align:center;
+   }
+.new{
+    font-size:25px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:rgb(226, 142, 33);
+    margin-bottom: 10px;
+    margin-top: 20px;
+    }
+.Mac{
+    font-size:40px;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.super{
+    font-size:80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.pay{
+    font-size:25px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    
+}
+.cash{
+    margin-left: 42%;   
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:30px;
+    background-color: rgb(11, 112, 235);
+    border-radius: 40px;
+    color:white;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    border-color:rgb(11, 112, 235);
+    border: none;
+    cursor: pointer;
+
+
 }
