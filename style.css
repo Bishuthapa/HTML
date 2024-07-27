@@ -7,16 +7,25 @@ h1{
     font-weight:bold;
 
 }
-.snow-leopard{
-    color:black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 40px;
-    transition: hover 1s;
-    cursor: pointer;
-    
+.nav,.homepage,.about,.contact,.blog,.careers,.store{
+    display:inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+
 }
-.snow-leopard:hover{
-    color:#77ba35;
+.homepage,.store,.careers,.contact,.about,.blog{
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:rgb(226, 142, 33);
+    margin-bottom: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 1s;
+
+}
+.homepage:hover,.store:hover,.careers:hover,.contact:hover,.about:hover,.blog:hover{
+    color:red;
 }
 a{
     text-decoration: none;
@@ -32,10 +41,11 @@ a:visited{
     color: rgb(25, 113, 212);
 }
 .subscribe-button{
+    font-size:30px;
     background-color: rgb(216, 63, 63);
     color:white;
     border-color: rgb(216, 63, 63);
-    border-radius:10px;
+    border-radius:50px;
     cursor: pointer;
     border-style:solid;
     transition: opacity 0.15s;
@@ -82,7 +92,7 @@ a:visited{
     border-width: 1px;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 1px;
-    font-size:10px;
+    font-size:30px;
     padding-right: 10px;
     padding-left:10px;
     transition: background-color 1s,
@@ -106,10 +116,11 @@ a:visited{
     border-radius:40px;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 10px;
+    font-size: 30px;
     padding-right:10px;
     padding-left:10px;
     cursor: pointer;
+    vertical-align:top;
 
 
 }
@@ -117,83 +128,6 @@ a:visited{
     box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
 }
 
-.box-1{
-
-    margin: auto;
-    padding: 3%;
-    background-color:rgb(246, 248, 244);
-    border: width 5px;
-    border-bottom-width: 50px;
-    border-top-style: dotted;
-
-    border-left: 15px rgb(93, 159, 224) solid;
-    border-top: 15px rgb(93, 159, 224) solid;
-    border-bottom:15px rgb(93, 159, 224) solid;
-    border-right: 15px rgb(93, 159, 224) solid;
-}
-.box-2{
-    margin: 5%;
-    padding:3%;
-    background-color:rgb(237, 239, 235);
-    border-bottom-width: 50px;
-    border-top-style: dotted;
-
-    border-left: 15px rgb(93, 159, 224) solid;
-    border-top: 15px rgb(93, 159, 224) solid;
-    border-bottom:15px rgb(93, 159, 224) solid;
-    border-right: 15px rgb(93, 159, 224) solid;
-}
-.box-3{
-    width: 80%;
-    margin: 5%;
-    padding:3%;
-    background-color:rgb(237, 239, 235);
-    border: width 5px;
-    border-bottom-width: 50px;
-    border-top-style: dotted;
-
-    border-left: 15px rgb(93, 159, 224) solid;
-    border-top: 15px rgb(93, 159, 224) solid;
-    border-bottom:15px rgb(93, 159, 224) solid;
-    border-right: 15px rgb(93, 159, 224) solid;
-}
-
-
-.categories{
-    border:5px #77ba35 solid ;
-    padding: 5px;
-    border-radius: 5px;
-}
-
-.categories h2{
-    text-align: center;
-}
-.categories ul{
-    padding: 0;
-    list-style: none;
-
-}
-.box-2
-{
-    text-align: 20px;    
-}
-
-.sop{
-    border: 5px greenyellow solid;
-    color:black;
-    border-radius: 5px;
-    width: 150px;
-    transition: background-color 1s,
-    border-color 1s,
-    color 1s;
-    cursor:pointer;
-    
-}
-.sop:hover{
-    color:red;
-    background-color: lightblue;
-    border-color:lightblue;
-}
 .back{
     margin-left: 76%;
     font-family:Arial, Helvetica, sans-serif;
@@ -254,7 +188,7 @@ a:visited{
     
 }
 .cash{
-    margin-left: 42%;   
+    margin-left: 46%;   
     font-family:Arial, Helvetica, sans-serif;
     font-size:30px;
     background-color: rgb(11, 112, 235);
