@@ -10,14 +10,14 @@ h1{
 .nav{
     text-align: center;
 }
-.homepage,.buttons,.contact,.blog,.careers,.store{
+.homepage,.buttons,.contact,.blog,.careers,.store,.YouTube1{
     display:inline-block;
     margin-left: 10px;
     margin-right: 10px;
 
 }
-.homepage,.store,.careers,.contact,.buttons,.blog{
-    font-size: 30px;
+.homepage,.store,.careers,.contact,.buttons,.blog,.YouTube1{
+    font-size: 150%;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: bold;
     color:rgb(226, 142, 33);
@@ -40,10 +40,10 @@ h1{
 }
 
 
-.homepage:hover,.store:hover,.careers:hover,.contact:hover,.buttons:hover,.blog:hover{
+.homepage:hover,.store:hover,.careers:hover,.contact:hover,.buttons:hover,.blog:hover,.YouTube1:hover{
     color:red;
 }
-.homepage:active,.store:active,.careers:active,.contact:active,.buttons:active,.blog:active{
+.homepage:active,.store:active,.careers:active,.contact:active,.buttons:active,.blog:active,.YouTube:active{
     color:violet;
 }
 
@@ -221,6 +221,42 @@ a:visited{
     border-color:rgb(11, 112, 235);
     border: none;
     cursor: pointer;
+    
 
+
+}
+.body{
+    background-color: black;
+    height: 3000px;
+}
+
+
+.banner{
+    width: 85%;
+    height: 50%;
+    object-fit:cover;
+    margin-top:40px;
+    margin-left:45px;
+    margin: right 20px;
+    border-radius: 20px;
+
+
+}
+
+.search{
+    background-color: rgb(0, 0, 0);
+    overflow:hidden;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: left 40px;
+    margin-right: 40px;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    border-style:solid;
+    border-width: 1px;
+    color: white;
 
 }
