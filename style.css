@@ -7,7 +7,10 @@ h1{
     font-weight:bold;
 
 }
-.nav,.homepage,.buttons,.contact,.blog,.careers,.store{
+.nav{
+    text-align: center;
+}
+.homepage,.buttons,.contact,.blog,.careers,.store{
     display:inline-block;
     margin-left: 10px;
     margin-right: 10px;
