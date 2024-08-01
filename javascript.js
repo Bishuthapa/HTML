@@ -1,4 +1,4 @@
-/*let string ="Bishu";
+let string ="Bishu";
 let size=0;
 for(let i of str)
 {
@@ -13,7 +13,7 @@ for(let i of str)
     size++;
 }
 console.log("string size is:" ,size);
-/*
+
 let gameNum =25;
 let userNum = prompt("Guess the game number:");
 while(userNum!=gameNum)
@@ -22,4 +22,4 @@ while(userNum!=gameNum)
 }
 
 console.log("Congrulation, you guessed the correct game number.");
-console.log("good boy.");*/
+console.log("good boy.");
