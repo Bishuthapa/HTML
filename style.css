@@ -242,34 +242,24 @@ a:visited{
 
 
 }
-
-.search{
-    
-    background-color: rgb(0, 0, 0);
-    overflow:hidden;
-    font-size: 18px;
+.search-button{
+    size:20px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left :250px;
-    margin-right: 40px;
-    border-radius: 30px;
-    padding-top: 10px;
-    padding-bottom: 8px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-style:solid;
-    border-width: 1px;
-    color: white;
+    border-radius: 20px;
+}
+.flex-container{
+    background-color: blue;
+    margin-left:20px;
+    text-align: center;
     
 
 }
-.flex-container {
-    display: flex;
-  }
-  
-  .flex-container > div {
-    background-color: #f1f1f1;
-    padding: 5px;
-    font-size: 30px;
-    flex-wrap: wrap;
-  }
+
+.searchtool{
+    height:18px;
+    background-color: white;
+    
+}
