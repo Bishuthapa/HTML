@@ -9,6 +9,11 @@ h1{
 }
 .nav{
     text-align: center;
+    display: flex;
+    
+}
+.nav:hover{
+    background-color: rgb(81, 7, 108);
 }
 .homepage,.buttons,.contact,.blog,.careers,.store,.YouTube1{
     display:inline-block;
@@ -229,19 +234,6 @@ a:visited{
     background-color: black;
     height: 3000px;
 }
-
-
-.banner{
-    width: 85%;
-    height: 50%;
-    object-fit:cover;
-    margin: top 1px;
-    margin-left:45px;
-    margin: right 20px;
-    border-radius: 20px;
-
-
-}
 .search-button{
     size:20px;
     margin-left: 10px;
@@ -263,9 +255,4 @@ a:visited{
     background-color: white;
     
 }
-.table{
-    table, th, td {
-        border: 1px solid black;
-        border-collapse: collapse;
-      }
-}
+
