@@ -1,7 +1,7 @@
 h1{
     /*background-color: RGB(0,70,90);*/
     color:rgba(6, 5, 6, 0.533);
-    Line-height:1.6em;
+    Line-height:1.6;
     font-family:Raleway;
     font-size: bold;
     font-weight:bold;
@@ -10,6 +10,7 @@ h1{
 .nav{
     text-align: center;
     display: flex;
+    background-color: #8edf3d;
     transition: background-color 1s;
     
 }
@@ -256,4 +257,13 @@ a:visited{
     background-color: white;
     
 }
-
+.homee{
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color:rgb(136, 218, 122);
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
