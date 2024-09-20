@@ -22,7 +22,7 @@ h1{
 .nav{
     text-align: center;
     display: flex;
-    background-color: #8edf3d;
+    background-color: #8edf;
     transition: background-color 1s;
     
 }
