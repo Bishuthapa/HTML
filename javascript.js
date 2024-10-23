@@ -15,7 +15,7 @@ for(let i of str)
 console.log("string size is:" ,size);
 
 let gameNum =25;
-let userNum = prompt("Guess the game number:");
+let userNum = prompt("Guess the game number:");4
 while(userNum!=gameNum)
 {
     userNum=prompt("You enter tge wrong number guess the game number:");
